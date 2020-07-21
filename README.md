@@ -1,4 +1,4 @@
-This project was craeted using Reactjs-chartjs [view LIVE DEMO ](https://suspicious-sammet-856fe7.netlify.app/)
+This project was craeted using Reactjs-chartjs [view LIVE DEMO ](https://covid19-tracker-mh.netlify.app/)
 
 ## Craeted using
 
