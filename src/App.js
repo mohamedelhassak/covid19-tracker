@@ -111,18 +111,6 @@ function App() {
         {/* Header Section */}
         <div className="app__header">
           <h2>Covid19 Tracker</h2>
-          <FormControl>
-            <Select
-              variant="filled"
-              className="app__dropdown"
-              value={casesType}
-              onChange={onchangeCasesType}
-            >
-              <MenuItem value="cases">Cases</MenuItem>
-              <MenuItem value="recovered">Recovered</MenuItem>
-              <MenuItem value="deaths">Deaths</MenuItem>
-            </Select>
-          </FormControl>
 
           <FormControl>
             <Select
