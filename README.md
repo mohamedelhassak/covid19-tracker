@@ -1,4 +1,4 @@
-This project was craeted using Reactjs-chartjs [view LIVE DEMO ](https://github.com/facebook/create-react-app)
+This project was craeted using Reactjs-chartjs [view LIVE DEMO ](https://suspicious-sammet-856fe7.netlify.app/)
 
 ## Craeted using
 
@@ -10,7 +10,7 @@ This project was craeted using Reactjs-chartjs [view LIVE DEMO ](https://github.
 
 ## To install you can run:
 
-### ``
+### `git clone https://github.com/mohamedelhassak/covid19-tracker.git`
 
 ### `npm install`
 
