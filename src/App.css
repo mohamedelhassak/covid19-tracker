@@ -5,6 +5,7 @@
 body {
   background-color: #f5f6fa;
 }
+
 /* start app */
 .app {
   display: flex;
@@ -13,7 +14,7 @@ body {
 }
 
 .app__left {
-  flex: 0.7;
+  flex: 0.9;
 }
 /* end app */
 

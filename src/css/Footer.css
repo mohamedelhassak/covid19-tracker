@@ -1,0 +1,21 @@
+.footer {
+  /* margin-top: 10px; */
+  padding: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  color: rgb(143, 137, 137);
+  font-style: normal;
+}
+.footer h4 {
+  font-weight: normal;
+}
+
+.footer__media a {
+  text-decoration: none;
+  color: cornflowerblue;
+  font-weight: bold;
+}

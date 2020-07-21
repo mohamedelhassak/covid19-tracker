@@ -1,9 +1,14 @@
 .table {
   margin-top: 20px;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: none;
   height: 400px;
   color: #6a5d5d;
+  margin-bottom: 20px;
 }
+/* .table::-webkit-scrollbar {
+  display: none;
+} */
 .table tr {
   display: flex;
   justify-content: space-between;
@@ -15,4 +20,11 @@
 
 .table tr:nth-of-type(odd) {
   background-color: #f3f2f8;
+}
+
+.table__country {
+  font-weight: 500;
+}
+.table__value {
+  font-weight: bold;
 }

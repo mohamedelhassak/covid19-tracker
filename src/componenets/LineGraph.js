@@ -47,22 +47,19 @@ const options = {
   },
 };
 
-function LineGraph({ casesType = "cases" }) {
+function LineGraph({ casesType }) {
   //hooks
   const [data, setData = -[]] = useState({});
-  const [isLoaded, setIsLoaded = -[]] = useState(false);
 
   //useEffect fetch data from api
   useEffect(() => {
-    setIsLoaded(true);
     const fetchData = async () => {
       await fetch(`${apiUrl}historical/all?lastdays=${lastdays}`)
         .then((res) => res.json())
         .then((data) => {
           //
-          const chartData = buildChartDataCases(data, "cases");
+          const chartData = buildChartDataCases(data, casesType);
           setData(chartData);
-          setIsLoaded(false);
         });
     };
 
